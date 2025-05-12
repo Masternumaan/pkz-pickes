@@ -1,0 +1,71 @@
+[
+    {
+        "id": 1,
+        "name": "Mango Pickle",
+        "description": "Traditional spicy mango pickle made with raw mangoes and authentic spices.",
+        "price": 199,
+        "originalPrice": 249,
+        "image": "img/mp.jpg",
+        "category": "spicy",
+        "badge": "Bestseller"
+    },
+    {
+        "id": 2,
+        "name": "Lemon Pickle",
+        "description": "Tangy lemon pickle with a perfect balance of spices and sourness.",
+        "price": 179,
+        "originalPrice": 229,
+        "image": "img/download.jpeg",
+        "category": "sour"
+    },
+    {
+        "id": 3,
+        "name": "Sweet Mango Pickle",
+        "description": "Sweet and mildly spicy mango pickle with jaggery and spices.",
+        "price": 219,
+        "image": "img/smp.jpeg",
+        "category": "sweet",
+        "badge": "New"
+    },
+    {
+        "id": 4,
+        "name": "Mixed Vegetable Pickle",
+        "description": "Assortment of seasonal vegetables pickled with traditional spices.",
+        "price": 229,
+        "originalPrice": 279,
+        "image": "img/mvp.jpeg",
+        "category": "spicy"
+    },
+    {
+        "id": 5,
+        "name": "Garlic Pickle",
+        "description": "Strong and flavorful garlic pickle with mustard oil and spices.",
+        "price": 189,
+        "image": "img/gp.jpeg",
+        "category": "spicy"
+    },
+    {
+        "id": 6,
+        "name": "Chilli Pickle",
+        "description": "Fiery hot green chilli pickle for spice lovers.",
+        "price": 169,
+        "image": "img/cp.jpeg",
+        "category": "spicy"
+    },
+    {
+        "id": 7,
+        "name": "Ginger Pickle",
+        "description": "Aromatic ginger pickle with digestive benefits.",
+        "price": 199,
+        "image": "img/ginp.jpeg",
+        "category": "spicy"
+    },
+    {
+        "id": 8,
+        "name": "Sweet Lime Pickle",
+        "description": "Mildly sweet and tangy lime pickle with a hint of jaggery.",
+        "price": 189,
+        "image": "img/smp.jpeg",
+        "category": "sweet"
+    }
+]
