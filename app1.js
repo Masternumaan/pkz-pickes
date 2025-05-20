@@ -461,7 +461,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const encodedMessage = encodeURIComponent(message);
         
         // Open WhatsApp with the message
-        window.open(`https://wa.me/919876543210?text=${encodedMessage}`, '_blank');
+        window.open(`https://wa.me/+916382744424?text=${encodedMessage}`, '_blank');
         
         // Optional: Clear cart after order
         cart = [];

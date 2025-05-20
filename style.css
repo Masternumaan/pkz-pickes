@@ -186,14 +186,17 @@ header .container {
 }
 
 .nav-cart {
-    margin-left: 20px;
+    margin: auto 10px;
     position: relative;
+    list-style: none;
 }
 
 .nav-cart a {
     font-size: 1.2rem;
 }
-
+#mainNav{
+    display: flex;
+}
 #navCartCount {
     position: absolute;
     top: -10px;
@@ -232,7 +235,7 @@ header .container {
 .hero {
     height: 100vh;
     min-height: 700px;
-    background: url('images/hero-bg.jpg') center/cover no-repeat;
+    background: url('/img/360_F_265855393_kzrVPRxea0LWcWjtDfbajBZUc3YwryiR.jpg') center/cover no-repeat;
     position: relative;
     display: flex;
     align-items: center;
@@ -934,6 +937,9 @@ footer {
 }
 
 @media (max-width: 576px) {
+    .logo h1 {
+    font-size: 1.2rem;
+    }
     .hero {
         min-height: 600px;
     }
@@ -1004,5 +1010,74 @@ footer {
     
     .cart-item-quantity {
         margin-top: 10px;
+    }
+}
+/* [Previous CSS remains the same until the footer] */
+
+/* CV Download Button in Social Links */
+.social-links .cv-download {
+    display: none; /* Hide on desktop - shown in mobile */
+}
+
+/* CV Download Button in Hero */
+.hero-btns .btn-outline i {
+    margin-right: 8px;
+}
+
+/* Education Section Specific Styles */
+#education .experience-item {
+    border-left-color: #4CAF50; /* Green accent for education */
+}
+
+/* Form Success Message */
+.form-success {
+    display: none;
+    color: #4CAF50;
+    text-align: center;
+    margin-top: 1rem;
+    font-weight: 500;
+}
+
+
+/* Mobile CV Download in Social Links */
+@media (max-width: 767px) {
+    .social-links .cv-download {
+        display: flex;
+    }
+    
+    .hero-btns .btn-outline {
+        display: none; /* Hide the larger CV button on mobile */
+    }
+}
+
+/* Tablet Adjustments */
+@media (min-width: 768px) and (max-width: 991px) {
+    /* [Previous tablet styles] */
+}
+
+/* Print Styles */
+@media print {
+    body {
+        background-color: white;
+        color: black;
+        font-size: 12pt;
+    }
+    
+    .hero-image, .social-links, .menu-toggle, footer {
+        display: none;
+    }
+    
+    .hero-content, .about-content, .experience-container, .projects-grid, .contact-container {
+        width: 100%;
+        padding: 0;
+    }
+    
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .btn {
+        display: none;
     }
 }
